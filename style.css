@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0862A0;
+    font-family: 'Nunito',sans-serif;
+    color: #FFF;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin: 78px 50px;
+}
+.title-cabecalho{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.list-cabecalho li{
+    display: inline-block;
+    padding: 0px 2px;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.list-cabecalho a{
+    text-decoration: none;
+    color: #FFF;
+
+}
+.list-cabecalho .botao-cabecalho{
+    color: #0862A0;
+    background-color: #FFF;
+    padding: 10px 22px;
+    border-radius: 10px;
+}
+
+.principal-lading{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.principal-texto{
+    margin-left: 100px;
+
+}
+.texto-aside{
+    padding: 30px 0;
+}
+
+.principal-texto h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 2;
+}
+.principal-texto p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2;
+}
+.textodois-aside{
+    display: grid;
+    gap: 48px;
+    margin-top: 32px;
+    
+}
+
+.textodois-aside a{
+    text-decoration: none;
+    background-color: #FFF;
+    color: #0862A0;
+    text-align: center;
+    width: 150px;
+    padding: 12px;
+    border-radius: 10px;
+        
+}
+
+.textodois-aside p{
+    font-weight: 600;
+}
+
+.textodois-aside p span{
+    font-weight: bold;
+}
+
+.principal-imagem{
+    margin-right: 90px;
+}
+
+.float{
+    position: absolute;
+    left: 1080px;
+    bottom: 300px;
+}
+.float-two{
+    position: absolute;
+    left: 1138px;
+    bottom: 150px;
+}
+
+.principal-partners{
+    text-align: center;
+    background-color: #FFF;
+    margin-top: 120px;
+}
+.partners{
+    width: 100%;
+    padding: 200px;
+    
+}
+
+.partners h1{
+    color: #0862A0;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 150px;
+}
+
+
+.principal-packages{
+    background-color: #FFF;
+    text-align: center;
+    display: grid;
+    gap: 32px;
+}
+.principal-packages h1 {
+    color: #0862A0;
+    font-size: 40px;
+    font-weight: 800;
+}
+.principal-packages p{
+    color: #5D5757;
+    font-size: 18px;
+    font-weight: 600;
+}
+.principal-packages .packages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    margin: 0 auto;    
+    box-sizing: border-box;    
+    padding-top: 80px;
+
+}
+.principal-hear{
+    background-color: #FFF;
+    text-align: center;
+    display: grid;
+    gap: 32px;
+    padding-top: 150px;
+}
+
+.principal-hear h1{
+    color: #0862A0;
+    font-size: 40px;
+    font-weight: 800;
+}
+.principal-hear p{
+    color: #0862A0;
+}
+
+.principal-hear .hear-img{
+    padding-top: 100px;
+}
+.team{
+    padding-top: 88px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+
+}
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.rodape h1{
+    font-size: 40px;
+}
+
+.rodape .explore{
+    text-align: center;
+    
+}
+.rodape .explore h1{
+    margin-bottom: 22px;
+}
+.rodape .explore a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+    padding: 0 22px;
+    gap: 16px;
+}
+
+.mediasocial{
+    text-align: center;
+}
+
+.mediasocial h1{
+    margin-bottom: 22px;
+}
+.mediasocial a{
+    padding: 0px 18px;
+}
+
+.atr{
+    text-align: center;
+    padding: 80px 0;
+}
